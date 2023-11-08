@@ -1,11 +1,39 @@
+/*GENERAL APP STYLING*/
 .App {
   text-align: center;
   background-color: #40513b;
+  color: white;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+/*LINKS*/
+a:link {
+  color: #edf1d6;
+}
+a:hover {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+/*NAVIGATION*/
+.Nav {
+  background-color: #40513b;
+  color: white;
+  text-decoration: none;
+  float: left;
+}
+
+/*NAVIGATION*/
+.Header {
+  background-color: #40513b;
+  color: white;
+  text-align: center;
+  vertical-align: -webkit-baseline-middle;
 }
 
 @media (prefers-reduced-motion: no-preference) {
