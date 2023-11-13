@@ -24,16 +24,32 @@ a:visited {
 .Nav {
   background-color: #40513b;
   color: white;
-  text-decoration: none;
   float: left;
+  text-align: left;
+  min-height: 100vh;
+  text-decoration: none;
+  list-style-type: none;
+  border-right: solid 1px #edf1d6;
+}
+.Header-text {
+  display: inline-block;
+  vertical-align: super;
+  padding: 0.5rem;
+  font-size: medium;
+}
+ul {
+  list-style-type: none;
 }
 
-/*NAVIGATION*/
+/*HEADER*/
 .Header {
   background-color: #40513b;
   color: white;
   text-align: center;
-  vertical-align: -webkit-baseline-middle;
+  margin: 0px;
+  padding: 10px;
+  border-bottom: solid 1px #edf1d6;
+  vertical-align: middle;
 }
 
 @media (prefers-reduced-motion: no-preference) {

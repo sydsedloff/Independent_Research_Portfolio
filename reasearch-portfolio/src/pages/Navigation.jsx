@@ -3,10 +3,10 @@ import { Outlet, Link } from "react-router-dom";
 function NavBar() {
   return (
     <>
-      <div className="Header">
-        <h1>
+      <div>
+        <h1 className="Header">
           <img src="https://placehold.co/50" alt="logo"></img>
-          Mariah Aviles
+          <div className="Header-text">Mariah Aviles</div>
         </h1>
       </div>
       <nav className="Nav">
@@ -15,10 +15,10 @@ function NavBar() {
             <Link to="/Home">Home</Link>
           </li>
           <li>
-            <Link to="/About">About</Link>
+            <Link to="/Projects">Projects</Link>
           </li>
           <li>
-            <Link to="/Projects">Projects</Link>
+            <Link to="/About">About</Link>
           </li>
           <li>
             <Link to="/Contact">Contact</Link>
