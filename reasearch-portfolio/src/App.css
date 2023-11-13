@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Figtree");
+
 /*GENERAL APP STYLING*/
 .App {
   text-align: center;
@@ -12,9 +14,12 @@
 /*LINKS*/
 a:link {
   color: #edf1d6;
+  text-decoration: none;
 }
 a:hover {
   color: white;
+  /* text-decoration: underline; */
+  border-bottom: #edf1d6 solid;
 }
 a:visited {
   color: white;
@@ -30,15 +35,16 @@ a:visited {
   text-decoration: none;
   list-style-type: none;
   border-right: solid 1px #edf1d6;
+  font-family: "Figtree", serif;
 }
-.Header-text {
-  display: inline-block;
-  vertical-align: super;
-  padding: 0.5rem;
-  font-size: medium;
-}
+
 ul {
-  list-style-type: none;
+  list-style: none;
+  text-align: right;
+  padding: 25px;
+}
+ul li {
+  margin-bottom: 1.5em;
 }
 
 /*HEADER*/
@@ -50,6 +56,14 @@ ul {
   padding: 10px;
   border-bottom: solid 1px #edf1d6;
   vertical-align: middle;
+}
+.Header-text {
+  display: inline-block;
+  vertical-align: super;
+  padding: 0.5rem;
+  font-size: large;
+  font-family: "Figtree", serif;
+  font-weight: 100;
 }
 
 @media (prefers-reduced-motion: no-preference) {

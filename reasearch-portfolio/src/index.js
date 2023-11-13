@@ -6,7 +6,6 @@ import NavBar from "./pages/Navigation";
 import AboutPage from "./pages/AboutPage";
 import ProjectPage from "./pages/ProjectPage";
 import ContactPage from "./pages/ContactPage";
-import reportWebVitals from "./reportWebVitals";
 import HomePage from "./pages/HomePage";
 
 export default function App() {
