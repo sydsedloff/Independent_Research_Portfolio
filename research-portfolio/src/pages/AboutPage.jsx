@@ -13,7 +13,7 @@ function AboutPage() {
         personality.
       </p>
       <p>And here's another paragraph</p>
-      <button>Let's Work Together</button>
+      <button className="button">Let's Work Together</button>
     </div>
   );
 }

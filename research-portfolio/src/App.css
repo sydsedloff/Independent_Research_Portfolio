@@ -75,7 +75,8 @@ p {
   text-align: left;
   padding-left: 8rem;
 }
-button {
+
+.button {
   /*ALIGN LEFT BUT RIGHT OF NAV*/
   display: block;
   background-color: #609966;
@@ -88,7 +89,9 @@ button {
   padding: 10px;
   margin-left: 8rem;
 }
-input {
+
+/*FORMS*/
+.input {
   background-color: #40513b;
   border: solid white 2px;
   border-radius: 5px;
@@ -110,12 +113,29 @@ input::placeholder {
 .message-input {
   height: 150px;
 }
-label {
+.label {
   display: block;
   text-align: left;
   margin-left: 8rem;
 }
 
+/*FILTER BUTTONS*/
+.filter-buttons {
+  background-color: #40513b;
+  border: solid 1px #c8dbbe;
+  font-family: "Figtree", serif;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: none;
+  box-sizing: unset;
+  max-width: fit-content;
+  margin: 0.5rem;
+}
+.filter-container {
+  display: flex;
+  flex-direction: row;
+}
 /*IMAGES*/
 .profile-picture {
   border-radius: 25px;
