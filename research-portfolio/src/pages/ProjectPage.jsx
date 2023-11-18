@@ -2,6 +2,7 @@ function ProjectPage() {
   return (
     <div className="App">
       <h1>Projects</h1>
+      {/* BUTTONS NEED CONDITIONAL STYLING */}
       <div className="filter-container">
         <div className="filter-buttons">all</div>
         <div className="filter-buttons">motion graphic design</div>

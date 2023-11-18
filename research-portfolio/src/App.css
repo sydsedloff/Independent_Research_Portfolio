@@ -78,7 +78,7 @@ p {
 
 .button {
   /*ALIGN LEFT BUT RIGHT OF NAV*/
-  display: block;
+  display: flex;
   background-color: #609966;
   color: white;
   border-radius: 7px;
@@ -140,7 +140,7 @@ input::placeholder {
 .profile-picture {
   border-radius: 25px;
   padding: 15px;
-  display: block;
+  display: flex;
 }
 
 @media (prefers-reduced-motion: no-preference) {
