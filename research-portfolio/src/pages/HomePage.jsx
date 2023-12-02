@@ -1,23 +1,31 @@
-import logo from "../logo.svg";
 import "../App.css";
 
 function HomePage() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to .
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img
+        src="https://placehold.co/150x150"
+        alt="Mariah Profile"
+        className="profile-picture"
+      ></img>
+      <div>
+        <h1>Hi, I'm Mariah. I'm an animation designer.</h1>
+      </div>
+      <div style={{ display: "flex" }}>
+        <img
+          src="https://placehold.co/300x200"
+          alt="Mariah Profile"
+          className="profile-picture"
+        ></img>
+        <div style={{ textAlign: "left" }}>
+          <h2>Project Name</h2>
+          <p style={{ textAlign: "left", padding: "0px", maxWidth: "40rem" }}>
+            Put more stuff here, like a summary of who you are, what kind of
+            work you do, a bit about your background, and maybe give a little of
+            your personality.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
