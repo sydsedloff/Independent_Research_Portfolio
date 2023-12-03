@@ -5,7 +5,7 @@ import ProjectsHome from "../components/ProjectsHome";
 function HomePage() {
   return (
     <div className="App">
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex", marginBottom: "2rem" }}>
         <div>
           <img
             src="https://placehold.co/150x150"

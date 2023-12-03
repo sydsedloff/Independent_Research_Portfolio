@@ -11,5 +11,18 @@
       }
     ],
     "id": 1
+  },
+  {
+    "title": "Project2",
+    "description": "This is a description of project 2",
+    "link": "https://developer.mozilla.org/",
+    "images": [
+      {
+        "image1": "https://placehold.co/300x200",
+        "image2": "link",
+        "image3": "link"
+      }
+    ],
+    "id": 2
   }
 ]

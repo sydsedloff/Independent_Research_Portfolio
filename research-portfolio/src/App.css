@@ -71,6 +71,9 @@ h1 {
   text-align: left;
   padding-left: 8rem;
 }
+h2 {
+  font-size: xx-large;
+}
 p {
   text-align: left;
   padding-left: 8rem;
@@ -153,6 +156,11 @@ input::placeholder {
   border-radius: 25px;
   padding: 15px;
   display: flex;
+}
+.project-grid {
+  display: grid;
+
+  grid-template-columns: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
