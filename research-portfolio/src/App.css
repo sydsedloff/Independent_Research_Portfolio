@@ -137,8 +137,15 @@ input::placeholder {
   flex-direction: row;
 }
 /*IMAGES*/
-.profile-picture {
+.profile-picture-rectangle {
   border-radius: 25px;
+  padding: 15px;
+  display: flex;
+}
+.profile-picture-circle {
+  max-width: 150px;
+  max-width: 150px;
+  border-radius: 50%;
   padding: 15px;
   display: flex;
 }

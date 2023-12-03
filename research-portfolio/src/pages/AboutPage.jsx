@@ -4,7 +4,7 @@ function AboutPage() {
       <img
         src="https://placehold.co/300x200"
         alt="Mariah Profile"
-        className="profile-picture"
+        className="profile-picture-rectangle"
       ></img>
       <h1>Here's a little about me.</h1>
       <p>
