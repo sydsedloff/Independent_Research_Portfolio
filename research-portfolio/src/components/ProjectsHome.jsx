@@ -7,7 +7,7 @@ export default function ProjectsHome() {
       {data.map((item) => (
         <div key={item.id}>
           <img
-            src={item.image1}
+            src={item.images[0].image1}
             alt="Mariah Profile"
             className="project-pictures"
           ></img>
