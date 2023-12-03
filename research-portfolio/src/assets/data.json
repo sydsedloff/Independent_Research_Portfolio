@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Project1",
+    "description": "This is a description of project 1",
+    "link": "https://developer.mozilla.org/",
+    "images": [
+      {
+        "image1": "https://placehold.co/300x200.jpg",
+        "image2": "link",
+        "image3": "link"
+      }
+    ],
+    "id": 1
+  }
+]

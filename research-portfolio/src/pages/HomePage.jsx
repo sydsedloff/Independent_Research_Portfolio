@@ -1,6 +1,6 @@
 import "../App.css";
-import "../components/Projects_Home";
-import ProjectsHome from "../components/Projects_Home";
+import "../components/ProjectsHome";
+import ProjectsHome from "../components/ProjectsHome";
 
 function HomePage() {
   return (
