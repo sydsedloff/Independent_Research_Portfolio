@@ -74,6 +74,11 @@ h1 {
 h2 {
   font-size: xx-large;
 }
+h3 {
+  margin-top: 0%;
+  text-align: left;
+  padding-left: 1rem;
+}
 p {
   text-align: left;
   padding-left: 8rem;
@@ -157,10 +162,13 @@ input::placeholder {
   padding: 15px;
   display: flex;
 }
+.home-grid {
+  display: grid;
+  grid-template-columns: auto;
+}
 .project-grid {
   display: grid;
-
-  grid-template-columns: auto;
+  grid-template-columns: auto auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {

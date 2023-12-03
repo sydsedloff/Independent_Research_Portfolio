@@ -3,7 +3,7 @@ import data from "../assets/data";
 
 export default function ProjectsHome() {
   return (
-    <div className="project-grid">
+    <div className="home-grid">
       {data.map((item) => (
         <div key={item.id}>
           <div style={{ display: "inline-block" }}>
