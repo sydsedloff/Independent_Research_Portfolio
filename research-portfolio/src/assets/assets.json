@@ -1,0 +1,14 @@
+[
+  {
+    "projectName": "project1",
+    "projectDescription": "this is a description of project 1",
+    "projectLink": "https://developer.mozilla.org/",
+    "projectImages": [
+      {
+        "projectImage1": "link",
+        "projectImage2": "link",
+        "projectImage3": "link"
+      }
+    ]
+  }
+]
