@@ -1,11 +1,10 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom"
 
 function NavBar() {
   return (
     <>
       <div>
         <h1 className="Header">
-          <img src="https://placehold.co/50" alt="logo"></img>
           <div className="Header-text">Mariah Aviles</div>
         </h1>
       </div>
@@ -28,7 +27,7 @@ function NavBar() {
 
       <Outlet />
     </>
-  );
+  )
 }
 
-export default NavBar;
+export default NavBar
