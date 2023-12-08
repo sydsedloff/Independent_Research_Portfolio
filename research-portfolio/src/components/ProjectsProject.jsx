@@ -8,7 +8,7 @@ export default function ProjectsProject() {
         <div key={key}>
           <div>
             <img
-              src={item.images[0].image1}
+              src={item.images[0]}
               alt="Mariah Profile"
               className="project-pictures"></img>
             <h3>{item.title}</h3>
