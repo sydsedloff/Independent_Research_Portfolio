@@ -1,8 +1,8 @@
 import "../App.css"
 import "../components/ProjectsHome"
+import { Link } from "react-router-dom"
 import ProjectsHome from "../components/ProjectsHome"
 import profileImg from "../assets/images/MariahProfile.jpg"
-import { Link } from "react-router-dom"
 
 function HomePage() {
   return (

@@ -210,9 +210,15 @@ input:focus {
 }
 
 /*IMAGES*/
-.profile-picture-rectangle {
+.about-image {
+  height: 300px;
+  object-fit: fill;
+  overflow: hidden;
   border-radius: 25px;
-  max-width: 500px;
+}
+.profile-picture-rectangle {
+  position: relative;
+  top: -40%;
 }
 .profile-picture-circle {
   max-height: 150px;

@@ -1,12 +1,15 @@
 import { NavLink } from "react-router-dom"
+import profileImg from "../assets/images/MariahProfile.jpg"
 
 function AboutPage() {
   return (
     <div className="single-column">
-      <img
-        src="https://placehold.co/300x200"
-        alt="Mariah Profile"
-        className="profile-picture-rectangle"></img>
+      <div className="about-image">
+        <img
+          src={profileImg}
+          alt="Mariah Profile"
+          className="profile-picture-rectangle"></img>
+      </div>
 
       <h1>Here's a little about me.</h1>
       <div className="article-body">
