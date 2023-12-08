@@ -3,7 +3,7 @@ import { useState } from "react"
 import data from "../assets/data"
 import ProjectModal from "./ProjectModal"
 
-export default function ProjectsProject() {
+export default function ProjectsProject(props) {
   /*
   const [isModalHidden, setIsModalHidden] = useState(true)
   */
@@ -13,11 +13,17 @@ export default function ProjectsProject() {
     // setIsModalHidden(!isModalHidden)
   }
 
+  const filteredData =
+    props.filter === "all"
+      ? data
+      : data.filter((item) => item.tag === props.filter)
+
   return (
     <>
+      {console.log(props.filter)}
       {/* {isModalHidden ? "" : <ProjectModal />} */}
       <div className="project-grid">
-        {data.map((item, key) => (
+        {filteredData.map((item, key) => (
           <div
             key={key}
             onClick={() => {

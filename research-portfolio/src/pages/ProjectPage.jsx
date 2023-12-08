@@ -4,24 +4,44 @@ import { useState } from "react"
 function ProjectPage() {
   const [filterTag, setFilterTag] = useState("all")
 
-  const switchFilter = () => {
-    // setFilterTag(this.textContent)
-    // console.log(this.textContent)
+  const switchFilter = (newFilter) => {
+    setFilterTag(newFilter)
   }
 
   return (
     <>
       <h1>Projects</h1>
       <div className="filter-container">
-        {console.log(filterTag)}
-        <button className="filter-buttons">all</button>
-        <button className="filter-buttons" onClick={switchFilter}>
+        <button
+          className="filter-buttons"
+          onClick={() => {
+            switchFilter("all")
+          }}>
+          all
+        </button>
+        <button
+          className="filter-buttons"
+          onClick={() => {
+            switchFilter("motion design")
+          }}>
           motion design
         </button>
-        <button className="filter-buttons">animation</button>
-        <button className="filter-buttons">3d modeling</button>
+        <button
+          className="filter-buttons"
+          onClick={() => {
+            switchFilter("animation")
+          }}>
+          animation
+        </button>
+        <button
+          className="filter-buttons"
+          onClick={() => {
+            switchFilter("3d modeling")
+          }}>
+          3d modeling
+        </button>
       </div>
-      <ProjectsProject></ProjectsProject>
+      <ProjectsProject filter={filterTag} />
     </>
   )
 }
