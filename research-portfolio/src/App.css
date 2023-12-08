@@ -81,6 +81,7 @@ header > a {
 }
 .Home-Heading {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 .Page-Heading {
@@ -171,6 +172,7 @@ input:focus {
   flex-direction: row;
   gap: 10px;
 }
+
 /*IMAGES*/
 .profile-picture-rectangle {
   border-radius: 25px;
