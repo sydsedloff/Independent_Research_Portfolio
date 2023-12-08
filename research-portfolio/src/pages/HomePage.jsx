@@ -4,7 +4,7 @@ import ProjectsHome from "../components/ProjectsHome"
 
 function HomePage() {
   return (
-    <main>
+    <>
       <div className="Home-Heading">
         <img
           src="https://placehold.co/150x150"
@@ -16,7 +16,7 @@ function HomePage() {
         </div>
       </div>
       <ProjectsHome />
-    </main>
+    </>
   )
 }
 

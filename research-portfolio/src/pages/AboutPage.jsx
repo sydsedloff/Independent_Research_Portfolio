@@ -1,6 +1,6 @@
 function AboutPage() {
   return (
-    <main>
+    <>
       <img
         src="https://placehold.co/300x200"
         alt="Mariah Profile"
@@ -13,7 +13,7 @@ function AboutPage() {
       </p>
       <p>And here's another paragraph</p>
       <button className="button">Let's Work Together</button>
-    </main>
+    </>
   )
 }
 

@@ -23,8 +23,9 @@ function NavBar() {
             </li>
           </ul>
         </nav>
-
-        <Outlet />
+        <main>
+          <Outlet />
+        </main>
       </div>
     </>
   )

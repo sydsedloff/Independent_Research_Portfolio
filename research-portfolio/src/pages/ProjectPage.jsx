@@ -2,7 +2,7 @@ import ProjectsProject from "../components/ProjectsProject"
 
 function ProjectPage() {
   return (
-    <main>
+    <>
       <h1>Projects</h1>
       {/* BUTTONS NEED CONDITIONAL STYLING */}
       <div className="filter-container">
@@ -12,7 +12,7 @@ function ProjectPage() {
         <div className="filter-buttons">3d modeling</div>
       </div>
       <ProjectsProject></ProjectsProject>
-    </main>
+    </>
   )
 }
 
