@@ -34,7 +34,7 @@ function ContactPage() {
           Message
           <textarea
             name="message"
-            placeholder="Want to collaborate? Tell me a bit more about yourself"
+            placeholder="Want to collaborate? Tell me a bit more about yourself."
             rows
             className="input"
           />
