@@ -1,15 +1,21 @@
 import "../App.css"
+import { useState } from "react"
 import data from "../assets/data"
 import ProjectModal from "./ProjectModal"
 
 export default function ProjectsProject() {
+  /*
+  const [isModalHidden, setIsModalHidden] = useState(true)
+  */
+
   const openProject = (item) => {
     console.log(item.title)
+    // setIsModalHidden(!isModalHidden)
   }
 
   return (
     <>
-      <ProjectModal />
+      {/* {isModalHidden ? "" : <ProjectModal />} */}
       <div className="project-grid">
         {data.map((item, key) => (
           <div

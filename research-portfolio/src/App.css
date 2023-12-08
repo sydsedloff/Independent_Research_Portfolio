@@ -5,16 +5,14 @@ body {
 }
 #root {
   height: 100%;
-  display: flex;
-  justify-content: center;
 }
 .Container {
   padding-top: 4rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
   height: 100%;
 }
 main {
-  margin-left: 7.5rem;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -39,6 +37,9 @@ main::-webkit-scrollbar {
   display: grid;
   gap: 20px;
 }
+.hidden {
+  display: none;
+}
 
 /*LINKS*/
 a {
@@ -51,7 +52,7 @@ a {
   height: 100%;
   border-right: solid 0.5px #edf1d6;
   padding: 30px;
-  position: fixed;
+  padding-left: 8%;
   background-color: #40513b;
 }
 .Nav a {
@@ -177,6 +178,7 @@ input:focus {
   box-sizing: unset;
   font-weight: 700;
   font-size: 1.4rem;
+  cursor: pointer;
 }
 .filter-buttons:hover {
   background-color: #c8dbbe20;
@@ -196,6 +198,7 @@ input:focus {
   background-color: #edf1d6;
   padding: 30px;
   border-radius: 20px;
+  position: absolute;
 }
 .project-modal h1,
 .project-modal h2,
@@ -227,11 +230,15 @@ input:focus {
   gap: 40px;
 }
 .home-grid > div {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 25px;
 }
 .project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 25px;
+}
+.project-grid > div {
+  cursor: pointer;
 }
