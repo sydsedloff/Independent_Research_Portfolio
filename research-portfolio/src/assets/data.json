@@ -1,8 +1,8 @@
 [
   {
-    "title": "Project1",
-    "description": "This is a description of project 1",
-    "link": "https://developer.mozilla.org/",
+    "title": "Cabrera's Campers - 3D Environment Presentation",
+    "description": "A cozy \"golden hour\" camping scene surrounded by a bohemian inspired fictional forest environment.",
+    "link": "https://youtu.be/nRHuwaNjDsQ?si=ZNO6y9XkSGz6mlED",
     "images": [
       {
         "image1": "https://placehold.co/400x300",
@@ -10,12 +10,11 @@
         "image3": "link"
       }
     ],
-    "id": 1,
-    "tags": []
+    "tag": "3D Modeling"
   },
   {
-    "title": "Project2",
-    "description": "This is a description of project 2",
+    "title": "Inspired 70s Living Room - 3D Environment Presentation",
+    "description": "An inspired 70s living room interior.",
     "link": "https://developer.mozilla.org/",
     "images": [
       {
@@ -24,12 +23,11 @@
         "image3": "link"
       }
     ],
-    "id": 2,
-    "tags": []
+    "tag": "3D Modeling"
   },
   {
-    "title": "Project3",
-    "description": "This is a description of project 3",
+    "title": "Fantasy DND Book Model & Textured",
+    "description": "Based on a reference picture from Jack Art Studios, a practice in texturing a stylized game prop with Arnold lighting and rendering for a video game or 3D film animation.",
     "link": "https://developer.mozilla.org/",
     "images": [
       {
@@ -38,7 +36,19 @@
         "image3": "link"
       }
     ],
-    "id": 3,
-    "tags": []
+    "tag": "3D Modeling"
+  },
+  {
+    "title": "Fantasy DND Book Model & Textured",
+    "description": "Based on a reference picture from Jack Art Studios, a practice in texturing a stylized game prop with Arnold lighting and rendering for a video game or 3D film animation.",
+    "link": "https://developer.mozilla.org/",
+    "images": [
+      {
+        "image1": "https://placehold.co/400x300",
+        "image2": "link",
+        "image3": "link"
+      }
+    ],
+    "tag": "3D Modeling"
   }
 ]
