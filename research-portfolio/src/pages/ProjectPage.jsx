@@ -6,10 +6,10 @@ function ProjectPage() {
       <h1>Projects</h1>
       {/* BUTTONS NEED CONDITIONAL STYLING */}
       <div className="filter-container">
-        <div className="filter-buttons">all</div>
-        <div className="filter-buttons">motion graphic design</div>
-        <div className="filter-buttons">2d animation</div>
-        <div className="filter-buttons">3d modeling</div>
+        <p className="filter-buttons">all</p>
+        <p className="filter-buttons">motion graphic design</p>
+        <p className="filter-buttons">2d animation</p>
+        <p className="filter-buttons">3d modeling</p>
       </div>
       <ProjectsProject></ProjectsProject>
     </>
