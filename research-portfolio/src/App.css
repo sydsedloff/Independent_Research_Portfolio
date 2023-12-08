@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Figtree");
-
 /*GENERAL APP STYLING*/
 .App {
   text-align: center;
@@ -36,7 +34,6 @@ a:visited {
   text-decoration: none;
   list-style-type: none;
   border-right: solid 1px #edf1d6;
-  font-family: "Figtree", serif;
 }
 ul {
   list-style: none;
@@ -61,12 +58,10 @@ ul li {
   vertical-align: super;
   padding: 0.5rem;
   font-size: large;
-  font-family: "Figtree", serif;
   font-weight: 100;
 }
 h1 {
   font-size: 3rem;
-  font-family: "Figtree", serif;
   font-weight: 100;
   text-align: left;
   padding-left: 8rem;
@@ -93,7 +88,6 @@ p {
   box-shadow: none;
   box-sizing: unset;
   border: none;
-  font-family: "Figtree", serif;
   padding: 10px;
   margin-left: 8rem;
 }
@@ -131,7 +125,6 @@ input::placeholder {
 .filter-buttons {
   background-color: #40513b;
   border: solid 1px #c8dbbe;
-  font-family: "Figtree", serif;
   padding: 10px;
   color: white;
   border-radius: 20px;
