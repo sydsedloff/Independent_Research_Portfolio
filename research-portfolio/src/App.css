@@ -17,8 +17,15 @@ main {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  overflow: scroll;
   max-width: 920px;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+main::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
 }
 .single-column {
   max-width: 500px;
@@ -51,6 +58,9 @@ a {
   padding: 4px 0px;
 }
 .Nav a:hover {
+  border-bottom: solid 4px #c8dbbe;
+}
+.active {
   border-bottom: solid 4px #c8dbbe;
 }
 ul {
