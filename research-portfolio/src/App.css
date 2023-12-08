@@ -179,6 +179,8 @@ input:focus {
   max-height: 150px;
   max-width: 150px;
   border-radius: 50%;
+  object-fit: fill;
+  overflow: hidden;
 }
 .project-pictures {
   border-radius: 25px;
