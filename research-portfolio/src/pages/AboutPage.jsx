@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom"
+
 function AboutPage() {
   return (
     <div className="single-column">
@@ -38,7 +40,9 @@ function AboutPage() {
           <li>Social Media Design</li>
         </ul>
       </div>
-      <button className="button">Let's Work Together</button>
+      <NavLink to="/Contact">
+        <button className="button">Let's Work Together</button>
+      </NavLink>
     </div>
   )
 }
