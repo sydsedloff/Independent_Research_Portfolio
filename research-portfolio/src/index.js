@@ -1,12 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./index.css";
-import NavBar from "./pages/Navigation";
-import AboutPage from "./pages/AboutPage";
-import ProjectPage from "./pages/ProjectPage";
-import ContactPage from "./pages/ContactPage";
-import HomePage from "./pages/HomePage";
+import React from "react"
+import ReactDOM from "react-dom/client"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import "./index.css"
+import NavBar from "./pages/Navigation"
+import AboutPage from "./pages/AboutPage"
+import ProjectPage from "./pages/ProjectPage"
+import ContactPage from "./pages/ContactPage"
+import HomePage from "./pages/HomePage"
 
 export default function App() {
   return (
@@ -21,8 +21,8 @@ export default function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(<App />)

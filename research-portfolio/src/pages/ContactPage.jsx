@@ -1,8 +1,32 @@
+import { useRef } from "react"
+import emailjs from "@emailjs/browser"
+
 function ContactPage() {
+  const form = useRef()
+  const sendEmail = (e) => {
+    e.preventDefault()
+    emailjs
+      .sendForm(
+        "service_1pmc99d",
+        "mariahs_contact_form",
+        form.current,
+        "egqjmO1StnVC6BvoN"
+      )
+      .then(
+        (result) => {
+          console.log(result.test)
+        },
+        (error) => {
+          console.log(error.text)
+        }
+      )
+    e.target.reset()
+  }
+
   return (
     <div className="single-column">
       <h1>Let's work together</h1>
-      <form>
+      <form ref={form} onSubmit={sendEmail}>
         <label className="label">
           Email
           <input
@@ -42,7 +66,7 @@ function ContactPage() {
             required
           />
         </label>
-        <button type="submit" value="Submit" className="button">
+        <button type="submit" value="Send" className="button">
           Submit
         </button>
       </form>
