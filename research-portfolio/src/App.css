@@ -212,7 +212,7 @@ input:focus {
 /*IMAGES*/
 .about-image {
   height: 300px;
-  object-fit: fill;
+  object-fit: cover;
   overflow: hidden;
   border-radius: 25px;
 }
@@ -224,12 +224,14 @@ input:focus {
   max-height: 150px;
   max-width: 150px;
   border-radius: 50%;
-  object-fit: fill;
+  object-fit: cover;
   overflow: hidden;
 }
 .project-pictures {
   border-radius: 25px;
-  min-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 .home-grid {
   display: grid;
