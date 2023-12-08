@@ -211,7 +211,7 @@ input:focus {
 }
 .home-grid > div {
   display: flex;
-  gap: 15px;
+  gap: 25px;
 }
 .project-grid {
   display: grid;
