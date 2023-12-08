@@ -183,7 +183,8 @@ input:focus {
 .filter-buttons:hover {
   background-color: #c8dbbe20;
 }
-.filter-buttons-selected {
+.filter-buttons-selected,
+.filter-buttons-selected:hover {
   background-color: #c8dbbe;
   color: #40513b;
 }
