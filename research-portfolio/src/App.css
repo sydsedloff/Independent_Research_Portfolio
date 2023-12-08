@@ -1,6 +1,6 @@
 /*GENERAL APP STYLING*/
 body {
-  background-color: #40513b;
+  background-color: hsl(106, 16%, 27%);
   height: 100%;
 }
 #root {
@@ -92,36 +92,40 @@ h3 {
 }
 
 .button {
-  /*ALIGN LEFT BUT RIGHT OF NAV*/
-  display: flex;
+  text-align: left;
   background-color: #609966;
   color: white;
-  border-radius: 7px;
-  box-shadow: none;
-  box-sizing: unset;
+  border-radius: 10px;
   border: none;
-  padding: 10px;
-  margin-left: 8rem;
+  padding: 10px 18px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  max-width: fit-content;
 }
 
 /*FORMS*/
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 .input {
   background-color: #40513b;
   border: solid white 2px;
-  border-radius: 5px;
+  border-radius: 10px;
   display: block;
-  padding: 2%;
-  width: 70%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding: 10px;
+  width: 100%;
   margin-bottom: 10px;
+  margin-top: 4px;
+  resize: vertical;
 }
 input:focus {
   color: white;
   box-shadow: none;
   outline: none;
 }
-input::placeholder {
+::placeholder {
   color: #c8dbbe;
 }
 .message-input {
@@ -130,7 +134,6 @@ input::placeholder {
 .label {
   display: block;
   text-align: left;
-  margin-left: 8rem;
 }
 
 /*FILTER BUTTONS*/
@@ -143,7 +146,7 @@ input::placeholder {
   box-shadow: none;
   box-sizing: unset;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .filter-buttons:hover {
   background-color: #c8dbbe20;

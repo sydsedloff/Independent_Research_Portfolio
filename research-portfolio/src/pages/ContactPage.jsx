@@ -32,8 +32,7 @@ function ContactPage() {
         </label>
         <label className="label">
           Message
-          <input
-            type="text"
+          <textarea
             name="message"
             placeholder="Want to collaborate? Tell me a bit more about yourself"
             rows

@@ -3,7 +3,7 @@
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800;900&display=swap");
 
 *,
 *::before,
@@ -29,13 +29,15 @@ svg {
   display: block;
   max-width: 100%;
 }
-input,
 button,
+input,
 textarea,
 select {
   font: inherit;
 }
+button,
 label,
+textarea,
 ::placeholder,
 a,
 p,
