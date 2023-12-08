@@ -124,6 +124,10 @@ h3 {
   font-weight: 600;
   max-width: fit-content;
 }
+.button:hover {
+  background-color: #edf1d6;
+  color: #40513b;
+}
 
 /*FORMS*/
 form {
