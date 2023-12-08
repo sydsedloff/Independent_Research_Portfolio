@@ -6,7 +6,7 @@ function ContactPage() {
         <label className="label">
           Email
           <input
-            type="text"
+            type="email"
             name="email"
             placeholder="email@company.com"
             className="input"

@@ -5,6 +5,8 @@ body {
 }
 #root {
   height: 100%;
+  display: flex;
+  justify-content: center;
 }
 .Container {
   padding-top: 4rem;
@@ -12,7 +14,7 @@ body {
   height: 100%;
 }
 main {
-  margin-left: 9.9rem;
+  margin-left: 7.5rem;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -67,6 +69,7 @@ a {
 .Nav ul {
   list-style: none;
   text-align: right;
+  padding: 0;
 }
 .Nav li {
   margin-bottom: 15px;
