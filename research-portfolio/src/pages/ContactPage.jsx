@@ -10,6 +10,7 @@ function ContactPage() {
             name="email"
             placeholder="email@company.com"
             className="input"
+            required
           />
         </label>
         <label className="label">
@@ -19,6 +20,7 @@ function ContactPage() {
             name="fullName"
             placeholder="John Doe"
             className="input"
+            required
           />
         </label>
         <label className="label">
@@ -37,6 +39,7 @@ function ContactPage() {
             placeholder="Want to collaborate? Tell me a bit more about yourself."
             rows
             className="input"
+            required
           />
         </label>
         <button type="submit" value="Submit" className="button">

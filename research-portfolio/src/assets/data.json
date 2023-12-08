@@ -1,5 +1,13 @@
 [
   {
+    "title": "Energy Drink Advertisement",
+    "description": "Energy Drink Advertisement Exercise, brand made in Adobe Illustrator 2023 and advertisement render done in Adobe Substance Stager. Compositing done in Adobe Photoshop 2024.",
+    "date": "Fall 2023",
+    "link": "https://youtu.be/ZDANyCUxAQo",
+    "images": ["../assets/images/EnergyDrink.jpg"],
+    "tag": "motion design"
+  },
+  {
     "title": "Missed Shot - Bittersweet Animated Motion Graphic",
     "description": "A young boy gets the opportunity to take a photo of his dreams, but unfortunately things don't seem to go according to his plan.",
     "date": "Fall 2023",
