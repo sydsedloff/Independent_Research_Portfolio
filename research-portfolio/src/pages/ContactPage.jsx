@@ -1,6 +1,6 @@
 function ContactPage() {
   return (
-    <div className="App">
+    <main>
       <h1>Let's work together</h1>
       <form>
         <label className="label">
@@ -44,8 +44,8 @@ function ContactPage() {
           Submit
         </button>
       </form>
-    </div>
-  );
+    </main>
+  )
 }
 
-export default ContactPage;
+export default ContactPage

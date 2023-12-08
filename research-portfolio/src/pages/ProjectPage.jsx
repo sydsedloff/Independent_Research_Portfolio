@@ -1,8 +1,8 @@
-import ProjectsProject from "../components/ProjectsProject";
+import ProjectsProject from "../components/ProjectsProject"
 
 function ProjectPage() {
   return (
-    <div className="App">
+    <main>
       <h1>Projects</h1>
       {/* BUTTONS NEED CONDITIONAL STYLING */}
       <div className="filter-container">
@@ -12,8 +12,8 @@ function ProjectPage() {
         <div className="filter-buttons">3d modeling</div>
       </div>
       <ProjectsProject></ProjectsProject>
-    </div>
-  );
+    </main>
+  )
 }
 
-export default ProjectPage;
+export default ProjectPage
