@@ -20,6 +20,9 @@ function HomePage() {
         </div>
       </div>
       <ProjectsHome data={truncData} />
+      <Link to="/Projects">
+        <button className="button">See More Projects</button>
+      </Link>
     </>
   )
 }
