@@ -7,6 +7,9 @@ body {
 }
 main {
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 
 /*LINKS*/
@@ -19,7 +22,7 @@ a {
   color: white;
   min-height: 100vh;
   border-right: solid 0.5px #edf1d6;
-  padding: 25px;
+  padding: 30px;
 }
 .Nav a {
   font-weight: 400;
@@ -53,23 +56,26 @@ header > a {
   font-weight: 800;
   text-decoration: none;
 }
+.Home-Heading {
+  display: flex;
+  gap: 40px;
+}
+.Main-Heading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 100;
-  text-align: left;
-  padding-left: 8rem;
 }
 h2 {
-  font-size: xx-large;
+  font-size: 3rem;
+  margin-bottom: 16px;
 }
 h3 {
   margin-top: 0%;
-  text-align: left;
   padding-left: 1rem;
-}
-p {
-  text-align: left;
-  padding-left: 8rem;
 }
 
 .button {
@@ -133,24 +139,23 @@ input::placeholder {
 /*IMAGES*/
 .profile-picture-rectangle {
   border-radius: 25px;
-  padding: 15px;
-  display: flex;
 }
 .profile-picture-circle {
-  max-width: 150px;
+  max-height: 150px;
   max-width: 150px;
   border-radius: 50%;
-  padding: 15px;
-  display: flex;
 }
 .project-pictures {
   border-radius: 25px;
-  padding: 15px;
-  display: flex;
 }
 .home-grid {
   display: grid;
   grid-template-columns: auto;
+  gap: 40px;
+}
+.home-grid > div {
+  display: flex;
+  gap: 15px;
 }
 .project-grid {
   display: grid;
