@@ -4,7 +4,7 @@
     "description": "Energy Drink Advertisement Exercise, brand made in Adobe Illustrator 2023 and advertisement render done in Adobe Substance Stager. Compositing done in Adobe Photoshop 2024.",
     "date": "Fall 2023",
     "link": "https://youtu.be/ZDANyCUxAQo",
-    "images": ["../assets/images/EnergyDrink.jpg"],
+    "images": ["EnergyDrink.jpg"],
     "tag": "motion design"
   },
   {
@@ -12,7 +12,7 @@
     "description": "A young boy gets the opportunity to take a photo of his dreams, but unfortunately things don't seem to go according to his plan.",
     "date": "Fall 2023",
     "link": "https://youtu.be/ZDANyCUxAQo",
-    "images": ["https://placehold.co/400x300"],
+    "images": ["EnergyDrink.jpg"],
     "tag": "motion design"
   },
   {
@@ -20,7 +20,7 @@
     "description": "Animated intro for fictional coffee podcast channel. Made assets with Adobe Fresco on Apple iPad Pro and animated in Adobe After Effects 2023.",
     "date": "Fall 2023",
     "link": "https://youtu.be/1TjafAlkVvo?si=LDPzIs0iPlhJDUTk",
-    "images": ["https://placehold.co/400x300"],
+    "images": ["EnergyDrink.jpg"],
     "tag": "motion design"
   },
   {
@@ -69,9 +69,9 @@
     "date": "August 2022",
     "link": "https://www.artstation.com/artwork/03JAy4",
     "images": [
-      "../assets/images/DwarvenAxeRender-1.jpg",
-      "../assets/images/DwarvenAxeRender-2.jpg",
-      "../assets/images/DwarvenAxeRender-3.jpg"
+      "DwarvenAxeRender-1.jpg",
+      "DwarvenAxeRender-2.jpg",
+      "DwarvenAxeRender-3.jpg"
     ],
     "tag": "3d modeling"
   }

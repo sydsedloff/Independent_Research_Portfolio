@@ -3,8 +3,11 @@ import "../components/ProjectsHome"
 import { Link } from "react-router-dom"
 import ProjectsHome from "../components/ProjectsHome"
 import profileImg from "../assets/images/MariahProfile.jpg"
+import data from "../assets/data.json"
 
 function HomePage() {
+  const truncData = data.slice(0, 3)
+
   return (
     <>
       <div className="Home-Heading">
@@ -16,7 +19,7 @@ function HomePage() {
           <Link to="/About">Learn more about me </Link>
         </div>
       </div>
-      <ProjectsHome />
+      <ProjectsHome data={truncData} />
     </>
   )
 }

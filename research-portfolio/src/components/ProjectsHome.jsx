@@ -1,19 +1,24 @@
 import "../App.css"
-import data from "../assets/data"
 
-export default function ProjectsHome() {
-  const truncData = data.slice(0, 3)
+export default function ProjectsHome(props) {
+  const importAll = (r) => {
+    let images = {}
+    r.keys().forEach((item, index) => {
+      images[item.replace("./", "")] = r(item)
+    })
+    return images
+  }
+  const images = importAll(require.context("../assets/images", false))
 
   return (
     <div className="home-grid">
-      {truncData.map((item, key) => (
+      {props.data.map((item, key) => (
         <div key={key}>
           <div>
             <img
-              src={item.images[0]}
-              alt="Mariah Profile"
+              src={images[`${item.images[0]}`]}
+              alt=""
               className="project-pictures"></img>
-            {console.log(item.link)}
           </div>
           <div
             style={{

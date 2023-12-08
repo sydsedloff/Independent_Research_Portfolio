@@ -7,6 +7,14 @@ export default function ProjectsProject(props) {
   /*
   const [isModalHidden, setIsModalHidden] = useState(true)
   */
+  const importAll = (r) => {
+    let images = {}
+    r.keys().forEach((item, index) => {
+      images[item.replace("./", "")] = r(item)
+    })
+    return images
+  }
+  const images = importAll(require.context("../assets/images", false))
 
   const openProject = (item) => {
     console.log(item.title)
@@ -31,7 +39,7 @@ export default function ProjectsProject(props) {
             }}>
             <div>
               <img
-                src={item.images[0]}
+                src={images[`${item.images[0]}`]}
                 alt="Mariah Profile"
                 className="project-pictures"></img>
               <h3>{item.title}</h3>
