@@ -59,6 +59,7 @@ a {
 }
 .Nav a:hover {
   border-bottom: solid 4px #c8dbbe;
+  background-color: #c8dbbe20;
 }
 .active {
   border-bottom: solid 4px #c8dbbe;
