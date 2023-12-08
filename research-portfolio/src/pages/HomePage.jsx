@@ -10,7 +10,7 @@ function HomePage() {
           src="https://placehold.co/150x150"
           alt="Mariah Profile"
           className="profile-picture-circle"></img>
-        <div className="Main-Heading">
+        <div className="Page-Heading">
           <h1>Hi, I'm Mariah. I'm an animation designer.</h1>
           <a href="/about">Learn more about me </a>
         </div>

@@ -1,15 +1,23 @@
 /*GENERAL APP STYLING*/
 body {
   background-color: #40513b;
+  height: 100%;
+}
+#root {
+  height: 100%;
 }
 .Container {
+  padding-top: 4rem;
   display: flex;
+  height: 100%;
 }
 main {
+  margin-left: 9.9rem;
   padding: 30px;
   display: flex;
   flex-direction: column;
   gap: 60px;
+  overflow: scroll;
 }
 
 /*LINKS*/
@@ -20,9 +28,11 @@ a {
 /*NAVIGATION*/
 .Nav {
   color: white;
-  min-height: 100vh;
+  height: 100%;
   border-right: solid 0.5px #edf1d6;
   padding: 30px;
+  position: fixed;
+  background-color: #40513b;
 }
 .Nav a {
   font-weight: 400;
@@ -47,7 +57,9 @@ header {
   margin: 0px;
   padding: 10px;
   border-bottom: solid 0.5px #edf1d6;
-  vertical-align: middle;
+  position: fixed;
+  width: 100%;
+  background-color: #40513b;
 }
 header > a {
   display: inline-block;
@@ -60,7 +72,7 @@ header > a {
   display: flex;
   gap: 40px;
 }
-.Main-Heading {
+.Page-Heading {
   display: flex;
   flex-direction: column;
   gap: 20px;

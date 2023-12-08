@@ -26,5 +26,19 @@
     ],
     "id": 2,
     "tags": []
+  },
+  {
+    "title": "Project3",
+    "description": "This is a description of project 3",
+    "link": "https://developer.mozilla.org/",
+    "images": [
+      {
+        "image1": "https://placehold.co/400x300",
+        "image2": "link",
+        "image3": "link"
+      }
+    ],
+    "id": 3,
+    "tags": []
   }
 ]
