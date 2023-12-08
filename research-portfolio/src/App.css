@@ -1,64 +1,57 @@
 /*GENERAL APP STYLING*/
-.App {
-  text-align: center;
-  color: white;
-}
 body {
   background-color: #40513b;
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Container {
+  display: flex;
+}
+main {
+  padding: 30px;
 }
 
 /*LINKS*/
-a:link {
-  color: #edf1d6;
-  text-decoration: none;
-}
-a:hover {
-  color: white;
-  /* text-decoration: underline; */
-  border-bottom: #edf1d6 solid;
-}
-a:visited {
-  color: white;
+a {
+  font-weight: 800;
 }
 
 /*NAVIGATION*/
 .Nav {
   color: white;
-  float: left;
-  text-align: left;
   min-height: 100vh;
+  border-right: solid 0.5px #edf1d6;
+  padding: 25px;
+}
+.Nav a {
+  font-weight: 400;
   text-decoration: none;
-  list-style-type: none;
-  border-right: solid 1px #edf1d6;
+  padding: 4px 0px;
+}
+.Nav a:hover {
+  border-bottom: solid 4px #c8dbbe;
 }
 ul {
   list-style: none;
   text-align: right;
-  padding: 25px;
 }
 ul li {
-  margin-bottom: 1.5em;
+  margin-bottom: 15px;
 }
 
 /*HEADER*/
-.Header {
+header {
   color: white;
   text-align: center;
   margin: 0px;
   padding: 10px;
-  border-bottom: solid 1px #edf1d6;
+  border-bottom: solid 0.5px #edf1d6;
   vertical-align: middle;
 }
-.Header-text {
+header > a {
   display: inline-block;
-  vertical-align: super;
-  padding: 0.5rem;
-  font-size: large;
-  font-weight: 100;
+  padding: 8px;
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: none;
 }
 h1 {
   font-size: 3rem;
@@ -162,33 +155,4 @@ input::placeholder {
 .project-grid {
   display: grid;
   grid-template-columns: auto auto;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

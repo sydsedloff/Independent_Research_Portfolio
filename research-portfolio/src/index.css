@@ -47,6 +47,7 @@ h5,
 h6 {
   overflow-wrap: break-word;
   font-family: "Figtree", sans-serif;
+  color: white;
   /* hyphens: auto; */
 }
 #root,
