@@ -191,6 +191,20 @@ input:focus {
   gap: 10px;
 }
 
+/* PROJECT MODAL */
+.project-modal {
+  background-color: #edf1d6;
+  padding: 30px;
+  border-radius: 20px;
+}
+.project-modal h1,
+.project-modal h2,
+.project-modal h3,
+.project-modal p,
+.project-modal a {
+  color: #40513b;
+}
+
 /*IMAGES*/
 .profile-picture-rectangle {
   border-radius: 25px;
@@ -205,7 +219,7 @@ input:focus {
 }
 .project-pictures {
   border-radius: 25px;
-  min-width: 300px;
+  min-width: 100%;
 }
 .home-grid {
   display: grid;
@@ -218,6 +232,6 @@ input:focus {
 }
 .project-grid {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   gap: 25px;
 }
