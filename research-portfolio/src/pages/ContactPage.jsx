@@ -1,6 +1,6 @@
 function ContactPage() {
   return (
-    <>
+    <div className="single-column">
       <h1>Let's work together</h1>
       <form>
         <label className="label">
@@ -43,7 +43,7 @@ function ContactPage() {
           Submit
         </button>
       </form>
-    </>
+    </div>
   )
 }
 
