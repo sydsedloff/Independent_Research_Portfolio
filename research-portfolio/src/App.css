@@ -45,6 +45,9 @@ main::-webkit-scrollbar {
 a {
   font-weight: 800;
 }
+.project-link {
+  text-decoration: none;
+}
 
 /*NAVIGATION*/
 .Nav {
@@ -226,13 +229,13 @@ form {
 }
 .project-description {
   max-height: 2rem;
-  /* padding-top: 1rem; */
   padding: 0.5rem 1rem 1rem 1rem;
-  transition: max-height 0.35s ease-out;
+  transition: max-height 0.5s ease-out;
+  font-weight: 400;
 }
 .project:hover .project-description {
   max-height: 500px;
-  transition: max-height 0.45s ease-in;
+  transition: max-height 0.5s ease-in;
 }
 
 /*IMAGES*/

@@ -11,10 +11,6 @@ export default function ProjectsProject(props) {
   }
   const images = importAll(require.context("../assets/images", false))
 
-  const openProject = (item) => {
-    console.log(item.title)
-  }
-
   const filteredData =
     props.filter === "all"
       ? data
@@ -24,11 +20,7 @@ export default function ProjectsProject(props) {
     <>
       <div className="project-grid">
         {filteredData.map((item, key) => (
-          <div
-            key={key}
-            onClick={() => {
-              openProject(item)
-            }}>
+          <a key={key} href={item.link} className="project-link">
             <div className="project">
               <img
                 src={images[`${item.images[0]}`]}
@@ -44,7 +36,7 @@ export default function ProjectsProject(props) {
                 </div>
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </>
