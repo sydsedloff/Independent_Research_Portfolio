@@ -13,7 +13,7 @@ export default function ProjectsHome(props) {
   return (
     <div className="home-grid">
       {props.data.map((item, key) => (
-        <div key={key}>
+        <a key={key} href={item.link} className="project-link">
           <div>
             <img
               src={images[`${item.images[0]}`]}
@@ -28,7 +28,7 @@ export default function ProjectsHome(props) {
             <h2>{item.title}</h2>
             <p>{item.description}</p>
           </div>
-        </div>
+        </a>
       ))}
     </div>
   )

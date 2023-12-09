@@ -229,8 +229,8 @@ form {
 }
 .project-description {
   max-height: 2rem;
-  padding: 0.5rem 1rem 1rem 1rem;
   transition: max-height 0.5s ease-out;
+  padding: 0.5rem 1rem 1rem 1rem;
   font-weight: 400;
 }
 .project:hover .project-description {
@@ -261,11 +261,14 @@ form {
   grid-template-columns: auto;
   gap: 40px;
 }
-.home-grid > div {
+.home-grid > a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 25px;
   cursor: pointer;
+}
+.home-grid p {
+  font-weight: 400;
 }
 .project-grid {
   display: grid;
