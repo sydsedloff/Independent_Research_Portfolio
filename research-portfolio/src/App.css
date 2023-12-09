@@ -116,6 +116,9 @@ h3 {
   font-size: 1.2rem;
   /* margin-bottom: 8px; */
 }
+h4 {
+  padding-bottom: 0.4rem;
+}
 
 .button {
   text-align: left;
@@ -193,6 +196,12 @@ form {
 }
 
 /* PROJECT */
+.project {
+  background-color: #609966;
+  border: solid 2px #c8dbbe;
+  border-radius: 35px;
+  padding: 0.6rem;
+}
 .project-pictures {
   border-radius: 25px;
   width: 100%;
@@ -202,20 +211,28 @@ form {
 .project-grid .project-pictures {
   border-radius: 25px 25px 0px 0px;
 }
-.project-description h3 {
+.project-details {
+  background-color: #609966;
+  border-radius: 0px 0px 25px 25px;
+  overflow: hidden;
+  /* padding: 1rem; */
+}
+.project-details h3 {
   background-color: #c8dbbe;
   color: #40513b;
   border-radius: 0px 0px 25px 25px;
-  position: relative;
-  top: -1.2rem;
-  padding: 1rem;
+  /* margin: -1rem; */
+  padding: 0.75rem 1rem;
 }
-.project-description > p {
-  background-color: #609966;
-  padding: 1rem;
-  padding-top: 3.5rem;
-  margin-top: -4rem;
-  border-radius: 0px 0px 25px 25px;
+.project-description {
+  max-height: 2rem;
+  /* padding-top: 1rem; */
+  padding: 0.5rem 1rem 1rem 1rem;
+  transition: max-height 0.35s ease-out;
+}
+.project:hover .project-description {
+  max-height: 500px;
+  transition: max-height 0.45s ease-in;
 }
 
 /*IMAGES*/
