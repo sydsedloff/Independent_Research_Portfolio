@@ -37,12 +37,17 @@ export default function ProjectsProject(props) {
             onClick={() => {
               openProject(item)
             }}>
-            <div>
+            <div className="project">
               <img
                 src={images[`${item.images[0]}`]}
                 alt="Mariah Profile"
                 className="project-pictures"></img>
-              <h3>{item.title}</h3>
+              <div className="project-description">
+                <div className="project-title">
+                  <h3>{item.title}</h3>
+                </div>
+                <p>{item.description}</p>
+              </div>
             </div>
           </div>
         ))}
