@@ -31,7 +31,7 @@ function ContactPage() {
           Email
           <input
             type="email"
-            name="email"
+            name="reply_to"
             placeholder="email@company.com"
             className="input"
             required
@@ -41,19 +41,10 @@ function ContactPage() {
           Full Name
           <input
             type="text"
-            name="fullName"
+            name="customer_name"
             placeholder="John Doe"
             className="input"
             required
-          />
-        </label>
-        <label className="label">
-          Company Name
-          <input
-            type="text"
-            name="companyName"
-            placeholder="Company Inc."
-            className="input"
           />
         </label>
         <label className="label">
