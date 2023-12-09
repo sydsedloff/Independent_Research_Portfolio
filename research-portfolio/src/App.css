@@ -16,7 +16,7 @@ main {
   padding: 30px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 60px;
   max-width: 920px;
   overflow-y: scroll;
   scrollbar-width: none; /* Firefox */
@@ -244,8 +244,8 @@ form {
   top: -40%;
 }
 .profile-picture-circle {
-  max-height: 150px;
-  max-width: 150px;
+  max-height: 180px;
+  max-width: 180px;
   border-radius: 50%;
   object-fit: cover;
   overflow: hidden;
@@ -259,7 +259,7 @@ form {
 .home-grid {
   display: grid;
   grid-template-columns: auto;
-  gap: 40px;
+  gap: 20px;
 }
 .home-grid > a {
   display: grid;
@@ -274,6 +274,7 @@ form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 25px;
+  margin-top: 30px;
 }
 .project-grid > div {
   cursor: pointer;
