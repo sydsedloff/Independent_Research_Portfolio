@@ -1,7 +1,8 @@
-import { useRef } from "react"
+import { useRef, useState } from "react"
 import emailjs from "@emailjs/browser"
 
 function ContactPage() {
+  const [showMessage, setShowMessage] = useState(false)
   const form = useRef()
   const sendEmail = (e) => {
     e.preventDefault()
@@ -21,6 +22,7 @@ function ContactPage() {
         }
       )
     e.target.reset()
+    setShowMessage(true)
   }
 
   return (
@@ -61,6 +63,11 @@ function ContactPage() {
           Submit
         </button>
       </form>
+      <p>
+        {showMessage
+          ? "Sent the email! Thanks for reaching out. I'll get back to you soon. 🙂"
+          : ""}
+      </p>
     </div>
   )
 }
