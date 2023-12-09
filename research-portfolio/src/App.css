@@ -150,17 +150,16 @@ form {
   margin-bottom: 10px;
   margin-top: 4px;
   resize: vertical;
+  color: white;
 }
-input:focus {
+.input:focus {
   color: white;
   box-shadow: none;
   outline: none;
+  filter: drop-shadow(0px 0px 4px #c8dbbe80);
 }
 ::placeholder {
   color: #c8dbbe;
-}
-.message-input {
-  height: 150px;
 }
 .label {
   display: block;
